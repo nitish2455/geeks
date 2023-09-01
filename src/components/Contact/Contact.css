@@ -1,0 +1,51 @@
+.contact {
+    color: #fff;
+    background: black;
+}
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-btn {
+    color: orangered !important;
+}
+
+.contact-btn:hover {
+    color: #fff !important;
+    background: orangered !important;
+}
+
+.contact .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact .footer .address {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.end {
+    text-align: center;
+    color: gray;
+}
+
+@media (max-width:760px) {
+    .contact {
+        text-align: center;
+    }
+
+    .contact .footer .address {
+        width: 95%;
+    }
+}

@@ -1,0 +1,34 @@
+.platform {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: #fff;
+}
+
+.platform-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.platform-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.platform-logo img {
+    width: auto;
+}
+
+@media (max-width:760px) {
+    .platform-logo div {
+        margin: 5%;
+    }
+}

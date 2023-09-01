@@ -1,0 +1,39 @@
+.info {
+    color: #fff;
+    background: black;
+}
+
+.info-container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.info-container h1 {
+    line-gap-override: 0;
+    font-size: 3em;
+}
+
+.info-btn {
+    color: orangered !important;
+}
+
+.info-btn:hover {
+    color: #fff !important;
+    background: orangered !important;
+}
+
+.info-container h1 span {
+    align-items: center;
+}
+
+@media (max-width:760px) {
+    .info-container {
+        width: 95%;
+    }
+}

@@ -1,0 +1,57 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(64, 21, 206);
+    color: #fff;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-bottom: 15%;
+    padding-top: 10%;
+}
+
+.image-container {
+    width: 40%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.hero-description {
+    width: 40%;
+    font-size: 1.25rem;
+    flex-shrink: 1;
+}
+
+
+
+
+.desc-link {
+    flex-shrink: 1;
+    display: inline;
+    padding: 0.8rem;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 25rem;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:760px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .hero-description {
+        width: 95%;
+    }
+
+    .image-container {
+        height: 95%;
+    }
+
+    .hero-image {
+        height: 250px;
+    }
+}

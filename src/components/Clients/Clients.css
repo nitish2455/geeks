@@ -1,0 +1,38 @@
+.clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}
+
+.clients-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.clients-desc h1 {
+    font-size: 3em;
+}
+
+
+
+
+
+.company-card img {
+    width: 240px;
+}
+
+
+@media (max-width:760px) {
+    .clients-desc {
+        width: 95%;
+    }
+}
